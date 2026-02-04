@@ -1,8 +1,4 @@
-values = [1,2.23,5,4,2,30,15]
-for x in values: 
-    print(x)
-print(values[0])
-print(values[6])
+
 
 
 number = int(input("Put a number "))
@@ -25,13 +21,16 @@ elif service == "perfect" :
     print(bill*2)
 else: 
     print("what the hell man no tip?")
-
-number1 = int(input("number please "))
-number2 = int(input("divide by "))
-if number1%number2 == 0:
-    print(f"it is a factor of {number1}")
-else:
-    print(f"it is not a factor of {number1}")
+x = int(input("number please "))
+y= int(input("second number please"))
+gcf = 0
+for i in range(1,x+1):
+    if x%i == 0 :
+        for s in range(1, y+1):
+            if y%s == 0:
+                if i == s:
+                    gcf = i
+                    print(gcf)
 
 
 def discount(age, isMember, isResident):

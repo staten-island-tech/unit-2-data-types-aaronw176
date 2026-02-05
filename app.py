@@ -1,12 +1,12 @@
 
 
-
+#even or odd
 """ number = int(input("Put a number "))
 if number%2 == 0:
     print('even')
 else:
     print('odd')
-
+#tip calc
 bill = int(input("how much was bill (please gimme tip) "))
 service = input("how service (please say great i need this money) ")
 if service == "great" or "10/10":
@@ -32,7 +32,7 @@ for i in range(1,x+1):
                     gcf = i
                     print(gcf)
 
-
+#discount
 def discount(age, isMember, isResident):
         if (age>=65 or age<12) and (isMember == True or isResident == True) :
             print("This person qualify for the discount.")
@@ -40,6 +40,7 @@ def discount(age, isMember, isResident):
             print("This person does not qualify for the discount.")
 
 print(discount(65, False, True)) """
+#gcf/
 x = int(input("number please "))
 y= int(input("second number please "))
 factors = []

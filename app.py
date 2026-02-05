@@ -1,7 +1,7 @@
 
 
 
-number = int(input("Put a number "))
+""" number = int(input("Put a number "))
 if number%2 == 0:
     print('even')
 else:
@@ -39,4 +39,12 @@ def discount(age, isMember, isResident):
         else:
             print("This person does not qualify for the discount.")
 
-print(discount(65, False, True))
+print(discount(65, False, True)) """
+x = int(input("number please "))
+y= int(input("second number please "))
+factors = []
+for i in range(1,x+1) and range(1,y+1):
+    if x%i == 0 and y%i == 0:
+       factors.append(i)
+       
+print(f"GCF is {max(factors)}")
